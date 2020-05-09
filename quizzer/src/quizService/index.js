@@ -23,17 +23,18 @@ const qBank = [
   {
     question: "What's the name of Batman's  parents?",
     answers: [
-      "Thomas & Martha",
+      
       "Joey & Jackie",
       "Jason & Sarah",
-      "Todd & Mira"
+      "Todd & Mira",
+      "Thomas & Martha"
     ],
     correct: "Thomas & Martha",
     questionId: "333247"
   },
   {
     question: "What is the most common surname Wales?",
-    answers: ["Jones", "Williams", "Davies", "Evans"],
+    answers: [ "Williams","Jones", "Davies", "Evans"],
     correct: "Jones",
     questionId: "496293"
   },
@@ -41,9 +42,10 @@ const qBank = [
     question:
       "What was the name of the WWF professional wrestling tag team made up of the wrestlers Ax and Smash?",
     answers: [
-      "Demolition",
+      
       "The Dream Team",
       "The Bushwhackers",
+      "Demolition",
       "The British Bulldogs"
     ],
     correct: "Demolition",
@@ -52,13 +54,13 @@ const qBank = [
   {
     question:
       'What name represents the letter "M" in the NATO phonetic alphabet?',
-    answers: ["Mike", "Matthew", "Mark", "Max"],
+    answers: [ "Matthew", "Mark", "Max","Mike"],
     correct: "Mike",
     questionId: "648452"
   },
   {
     question: "What is the first book of the Old Testament?",
-    answers: ["Genesis", "Exodus", "Leviticus", "Numbers"],
+    answers: [ "Exodus", "Leviticus","Genesis", "Numbers"],
     correct: "Genesis",
     questionId: "786649"
   },
@@ -140,23 +142,24 @@ const qBank = [
   {
     question: "Which American president appears on a one dollar bill?",
     answers: [
-      "George Washington",
+      
       "Thomas Jefferson",
       "Abraham Lincoln",
-      "Benjamin Franklin"
+      "Benjamin Franklin",
+      "George Washington"
     ],
     correct: "George Washington",
     questionId: "195075"
   },
   {
     question: 'What is "dabbing"?',
-    answers: ["A dance", "A medical procedure", "A sport", "A language"],
+    answers: [ "A medical procedure","A dance", "A sport", "A language"],
     correct: "A dance",
     questionId: "2019778"
   },
   {
     question: "What is the name of the Jewish New Year?",
-    answers: ["Rosh Hashanah", "Elul", "New Year", "Succoss"],
+    answers: [ "Elul", "New Year","Rosh Hashanah", "Succoss"],
     correct: "Rosh Hashanah",
     questionId: "2134343"
   },
@@ -174,13 +177,13 @@ const qBank = [
   {
     question:
       "What type of animal was Harambe, who was shot after a child fell into it's enclosure at the Cincinnati Zoo?",
-    answers: ["Gorilla", "Tiger", "Panda", "Crocodile"],
+    answers: ["Tiger","Gorilla",  "Panda", "Crocodile"],
     correct: "Gorilla",
     questionId: "2379831"
   },
   {
     question: "Red Vines is a brand of what type of candy?",
-    answers: ["Licorice", "Lollipop", "Chocolate", "Bubblegum"],
+    answers: ["Lollipop", "Chocolate", "Licorice", "Bubblegum"],
     correct: "Licorice",
     questionId: "2426418"
   },
@@ -193,10 +196,11 @@ const qBank = [
   {
     question: "What is on display in the Madame Tussaud's museum in London?",
     answers: [
-      "Wax sculptures",
+      
       "Designer clothing",
       "Unreleased film reels",
-      "Vintage cars"
+      "Vintage cars",
+      "Wax sculptures"
     ],
     correct: "Wax sculptures",
     questionId: "2685745"
@@ -204,33 +208,34 @@ const qBank = [
   {
     question:
       "What was the nickname given to the Hughes H-4 Hercules, a heavy transport flying boat which achieved flight in 1947?",
-    answers: ["Spruce Goose", "Noah's Ark", "Fat Man", "Trojan Horse"],
+    answers: [ "Noah's Ark", "Fat Man","Spruce Goose", "Trojan Horse"],
     correct: "Spruce Goose",
     questionId: "2796884"
   },
   {
     question: "Which of these colours is NOT featured in the logo for Google?",
-    answers: ["Pink", "Yellow", "Blue", "Green"],
+    answers: [ "Yellow","Pink", "Blue", "Green"],
     correct: "Pink",
     questionId: "2838900"
   },
   {
     question: 'What is the French word for "hat"?',
-    answers: ["Chapeau", "Bonnet", " Écharpe", " Casque"],
+    answers: [ "Bonnet", "Chapeau"," Écharpe", " Casque"],
     correct: "Chapeau",
     questionId: "298060"
   },
   {
     question: "Five dollars is worth how many nickles?",
-    answers: ["100", "50", "25", "69"],
+    answers: [ "50", "25","100", "69"],
     correct: "100",
     questionId: "3096579"
   },
   {
     question: "Who is depicted on the US hundred dollar bill?",
     answers: [
-      "Benjamin Franklin",
+      
       "George Washington",
+      "Benjamin Franklin",
       "Abraham Lincoln",
       "Thomas Jefferson"
     ],
@@ -250,14 +255,14 @@ const qBank = [
   },
   {
     question: "Which one of these is not a typical European sword design?",
-    answers: ["Scimitar", "Falchion", "Ulfberht", "Flamberge"],
+    answers: [ "Falchion", "Ulfberht", "Flamberge","Scimitar"],
     correct: "Scimitar",
     questionId: "3318503"
   },
   {
     question:
       'According to Sherlock Holmes, "If you eliminate the impossible, whatever remains, however improbable, must be the..."',
-    answers: ["Truth", "Answer", "Cause", "Source"],
+    answers: [ "Answer", "Cause", "Source" , "Truth" ],
     correct: "Truth",
     questionId: "3410327"
   },
@@ -269,24 +274,25 @@ const qBank = [
   },
   {
     question: "The New York Times slogan is, “All the News That’s Fit to…”",
-    answers: ["Print", "Digest", "Look", "Read"],
+    answers: [ "Digest", "Look","Print", "Read"],
     correct: "Print",
     questionId: "3667517"
   },
   {
     question: "What do the letters of the fast food chain KFC stand for?",
     answers: [
-      "Kentucky Fried Chicken",
+     
       "Kentucky Fresh Cheese",
       "Kibbled Freaky Cow",
-      "Kiwi Food Cut"
+      "Kiwi Food Cut",
+      "Kentucky Fried Chicken",
     ],
     correct: "Kentucky Fried Chicken",
     questionId: "3791672"
   },
   {
     question: "Which restaurant's mascot is a clown?",
-    answers: ["McDonald's", "Whataburger", "Burger King", "Sonic"],
+    answers: [ "Whataburger", "Burger King","McDonald's", "Sonic"],
     correct: "McDonald's",
     questionId: "3893585"
   },
@@ -298,21 +304,21 @@ const qBank = [
   },
   {
     question: "How tall is the Burj Khalifa?",
-    answers: ["2,722 ft", "2,717 ft", "2,546 ft", "3,024 ft"],
+    answers: [ "2,717 ft","2,722 ft", "2,546 ft", "3,024 ft"],
     correct: "2,722 ft",
     questionId: "4049121"
   },
   {
     question:
       "Which of the following card games revolves around numbers and basic math?",
-    answers: ["Uno", "Go Fish", "Twister", "Munchkin"],
+    answers: ["Uno", "Go Fish", "Twister","Uno", "Munchkin"],
     correct: "Uno",
     questionId: "4150746"
   },
   {
     question:
       "What machine element is located in the center of fidget spinners?",
-    answers: ["Bearings", "Axles", "Gears", "Belts"],
+    answers: [ "Axles","Bearings", "Gears", "Belts"],
     correct: "Bearings",
     questionId: "4235063"
   },
@@ -325,10 +331,11 @@ const qBank = [
   {
     question: "Which of the following presidents is not on Mount Rushmore?",
     answers: [
-      "John F. Kennedy",
+      
       "Theodore Roosevelt",
       "Abraham Lincoln",
-      "Thomas Jefferson"
+      "Thomas Jefferson",
+      "John F. Kennedy"
     ],
     correct: "John F. Kennedy",
     questionId: "4442286"
@@ -336,9 +343,10 @@ const qBank = [
   {
     question: "What is Tasmania?",
     answers: [
-      "An Australian State",
+      
       "A flavor of Ben and Jerry's ice-cream",
       "A Psychological Disorder",
+      "An Australian State",
       "The Name of a Warner Brothers Cartoon Character"
     ],
     correct: "An Australian State",
@@ -346,14 +354,14 @@ const qBank = [
   },
   {
     question: "What company developed the vocaloid Hatsune Miku?",
-    answers: ["Crypton Future Media", "Sega", "Sony", "Yamaha Corporation"],
+    answers: ["Sega", "Crypton Future Media", "Sony", "Yamaha Corporation"],
     correct: "Crypton Future Media",
     questionId: "4630606"
   },
   {
     question:
       "Which country, not including Japan, has the most people of japanese decent?",
-    answers: ["Brazil", "China", "South Korea", "United States of America"],
+    answers: ["China","Brazil", "South Korea", "United States of America"],
     correct: "Brazil",
     questionId: "4795960"
   },
