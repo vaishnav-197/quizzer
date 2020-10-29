@@ -2,7 +2,7 @@
 
 
 
-quizzer is a simple react ⚛️  Quiz  app 
+    QUIZZER is a simple react ⚛️  QUIZ  app  
 
 
 
